@@ -1,4 +1,3 @@
-// Import necessary modules and components
 import Image from "next/image";
 
 export default function Home() {
@@ -27,9 +26,11 @@ export default function Home() {
                         </div>
                         <div className="md:col-span-1 md:border-l-2 min-[320px]:border-t-2 font-bold">
                             <Image src="/image/banner-03.png" className="w-full h-auto opacity-30" width={260} height={150} alt=""/>
-                            <div className="md:py-4 md:mx-8 min-[320px]:p-2">
+                            <div className="md:py-4 md:mx-8 min-[320px]:p-2 text-center">
                                 Hôm nay là sinh nhật Tươi, chúc Tươi một tuổi mới luôn xinh tươi, vui vẻ, tràn đầy năng lượng.
+                                <br/>
                                 Thành công trong công việc và đạt được những dự định lớn trong tương lai.
+                                <br/>
                                 Và luôn hạnh phúc bên gia đình và người mình thương nhé.
                                 <br/>
                                 Mừng một ngày sinh nhật thật đặc biệt cùng khởi đầu tuổi mới đầy nhiệm màu nhé 😉.
