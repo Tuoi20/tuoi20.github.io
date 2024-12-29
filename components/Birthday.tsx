@@ -72,12 +72,12 @@ export default function Birthday() {
   return (
     <div className="fixed inset-0 overflow-auto bg-gradient-to-b from-pink-50 to-blue-50">
       <div
-        className={`w-full h-full flex items-center justify-center transition-transform duration-700
-          ${isPortrait ? "rotate-90 origin-center" : ""}`}
+        className={`h-full flex items-center justify-center transition-transform duration-700
+          ${isPortrait ? "rotate-90 origin-center w-[120%]" : "w-full"}`}
       >
         <div
           className={`max-w-5xl mx-auto scale-90 ${
-            isPortrait ? "scale-75" : ""
+            isPortrait ? "scale-75" : "scale-110"
           }`}
         >
           <div className="text-center mb-12 relative">
