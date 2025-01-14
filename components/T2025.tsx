@@ -20,9 +20,15 @@ export default function T2025() {
   }, []);
 
   const imageList = [
-    "/image/seo/2023.png",
-    "/image/seo/2024.png",
-    "/image/seo/home.png",
+    "/image/2025/1.jpg",
+    "/image/2025/2.jpg",
+    "/image/2025/3.jpg",
+    "/image/2025/4.jpg",
+    "/image/2025/5.jpg",
+    "/image/2025/6.jpg",
+    "/image/2025/7.jpg",
+    "/image/2025/8.jpg",
+    "/image/2025/9.jpg",
   ];
 
   const remainingNumbers = Array.from({ length: 11 }, (_, i) => i + 5);
